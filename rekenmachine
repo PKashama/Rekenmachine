@@ -1,0 +1,24 @@
+def plus(a, b):
+  return a + b
+  
+def minus(a, b):
+  return a - b
+
+def maal(a, b):
+  return a * b
+
+def delen(a, b):
+  return a / b
+
+getal1 = float(input('Voer getal 1 in: '))
+bewerking = input('Voer bewerking in (+, -, * of /): ')
+getal2 = float(input('Voer getal 2 in: '))
+
+if bewerking == '+':
+  print(plus(getal1, getal2))
+elif bewerking == '-':
+  print(minus(getal1, getal2))
+elif bewerking == '*':
+  print(maal(getal1, getal2))
+elif bewerking == '/':
+  print(delen(getal1, getal2))
